@@ -1,0 +1,757 @@
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-COMMERCE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="icon" type="image" href="">
+
+
+    <style>
+
+
+* {
+    padding:0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    text-decoration:none;
+}
+
+img{
+
+    height: 40px;
+    width: 130px;
+    padding: 4px 30px;
+    
+}
+
+nav {
+
+    background-color:darkslategrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+}
+
+.search {
+
+    background-color: #fff;
+    padding: 10px;
+    width: 400px;
+    display:inline-flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 10px;
+    
+    
+}
+
+.search input {
+
+    border: none;
+    outline:none;
+    
+}
+
+.loginbtn {
+
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    border:none;
+    border-radius: 5px;
+    margin: 15px;
+    background-color: #fff;
+    font-weight: 550;
+    text-decoration: none;
+
+}
+
+.outfit button:hover {
+
+    color: rgb(18, 18, 18);
+    transform: scale (1.3s);
+    background-color: rgba(0, 157, 255, 0.973);
+    transition: 0.5s ease-in-out;
+   
+
+}
+
+
+.link ul a {
+    color: #fff;
+}
+
+.link ul  {
+    color: #fff;
+    transition: .3s;
+    word-spacing: 10px;
+    font-weight: 500;
+}
+
+.link ul a:hover {
+
+    color: rgb(255, 0, 0);
+    font-weight: 570;
+    border-bottom:2px solid red;
+}
+
+
+
+.front img {
+    height: 430px;
+    width:100%;
+    margin:0;
+    padding: 0;
+}
+
+
+.post{
+    
+    background-color: blueviolet;
+   text-align: center;
+    word-spacing: 5px;
+    padding:13px;
+    
+}
+
+.outfits{
+
+display:grid; 
+grid-template-columns: repeat(3 , 1fr);
+padding:20px 30px;
+grid-column-gap: 20px;
+grid-row-gap: 0px;
+text-align: center;
+
+}
+
+.outfit img{ 
+    
+    height:500px;
+    width:300px;
+    object-fit:cover;
+    cursor:pointer;
+    padding: 40px;
+    border-radius: 60px;
+
+
+}
+
+.outfit img:hover{
+     transform: scale(1.1);
+   
+}
+
+
+.outfit button{
+
+    padding: 5px 30px;
+    border: solid;
+    border-radius: 7px;
+    transition-delay: 0.1s;
+    
+}
+
+.outfit button:hover{
+    transform: scale(1.05s);
+    background-color: rgb(124, 158, 244);
+    color: black;
+    box-shadow: 3px 4px 3px ;
+
+    
+}
+
+body{
+background-color: rgb(239, 157, 16);
+
+
+}
+.scroll marquee{
+
+    padding:15px;
+    margin: 0px;
+    word-spacing: 10px;
+
+}
+
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 5px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0 1.4rem 0;   
+}
+
+.social li img {
+    height: 37px;
+    width: 37px;
+    margin: 0 12px;
+}
+
+.footer-bottom {
+    background: rgb(249, 249, 250);
+    width: 100vm;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize
+}
+.footer-bottom{
+    text-transform: uppercase;
+    /* opacity: .4; */
+    font-weight: 200;
+}
+.footer-bottom p span a{
+    color: rgb(11, 1, 1);
+}
+.footer-bottom p span a:hover {
+    color: #fb0606;
+}
+
+
+    </style>
+
+</head>
+
+<body>
+    
+    <nav>
+        <div class="img">
+        
+            <h2>E-CART&nbsp;&nbsp;&nbsp;&nbsp;🛒&nbsp;&nbsp;&nbsp;</h2>
+        </div>
+
+        <div class="search">
+        <input type="text" placeholder="Searct here">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+
+
+        <button class="loginbtn"><a href="">Signup</a></button>
+
+
+        <div class="link">
+            <ul>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Service</a>
+                <a href="">Contact-Us</a>
+            </ul>
+        </div>
+
+
+    </nav>
+
+
+<div class="post"><H3>LATEST SEASONS CLOTHING TRENDS FOR MEN & WOMEN </H3></div>
+ 
+    
+
+<div class="front">
+    <img src="./trending.jpg">
+</div>
+
+
+<div class="scroll">
+<marquee scrollamount="10" style="background-color:blueviolet;
+ color:yellow"><b>50% DISCOUNT ON FIRST 3 ORDERS... HURRY UP</b></marquee>
+</div>
+
+
+<div  class="outfits">
+
+
+<!-- outfits -->
+
+
+
+    <div class="outfit">
+        <img src="./IMG_20221126_132324.png">
+        <h4>Full Sleeve Washed Men Denim Jacket<br>
+            ₹1,199</h4>
+        <button><a href="https://www.flipkart.com/urbano-fashion-full-sleeve-washed-men-denim-jacket/p/itmfae5aa3334ea1?pid=JCKFY8U7FUGXW3YH&lid=LSTJCKFY8U7FUGXW3YHPQGB3G&marketplace=FLIPKART&q=trending+denm&store=clo&srno=s_1_11&otracker=search&otracker1=search&fm=Search&iid=242aa682-aa14-4553-8e08-629a59652bf9.JCKFY8U7FUGXW3YH.SEARCH&ppt=sp&ppn=sp&qH=1b2b52697a0e1424">BUY NOW </a></button>
+
+    </div>
+
+    <div class="outfit">
+        <img src="./kurta.png">
+        <h4>TrueBrowns 
+            Women Kurta and Pant Set Velvet<br>
+            ₹4,999</h4>
+        <button><a href="https://www.flipkart.com/truebrowns-women-kurta-pant-set/p/itmde4458da1b0e3?pid=ETHGK9B6AGN947JV&lid=LSTETHGK9B6AGN947JVHCR7I0&marketplace=FLIPKART&q=trending+cloths&store=search.flipkart.com&srno=s_1_29&otracker=search&otracker1=search&fm=Search&iid=7dfde55b-6e2d-40f1-a84d-d7da0704982d.ETHGK9B6AGN947JV.SEARCH&ppt=sp&ppn=sp&ssid=2xragy59a80000001669451861725&qH=2c5ca9f7d8016962">BUY NOW </a></button>
+
+    </div>
+
+    <div class="outfit">
+        <img src="./3.png">
+        <h4>
+            Full Sleeve Solid Men Jacket
+            Special price<BR>
+            ₹6,399</h4>
+        <button><a href="https://www.flipkart.com/american-eagle-outfitters-full-sleeve-solid-men-jacket/p/itmcdc1df901235e?pid=JCKGGGHG62UDYFJQ&lid=LSTJCKGGGHG62UDYFJQK0HV6X&marketplace=FLIPKART&q=trending+outfits+&store=clo%2Fqvw&srno=s_1_3&otracker=search&fm=Search&iid=8b32620c-c547-4b6f-b7f0-d2af6433631b.JCKGGGHG62UDYFJQ.SEARCH&ppt=browse&ppn=browse&ssid=ox1sw7456o0000001669452397253&qH=c18c10310793d2a9">BUY NOW </a></button>
+
+    </div>
+
+
+    <div class="outfit">
+        <img src="./4.png">
+        <h4>Full Sleeve Solid Women Jacket
+            ₹5,999<br>
+            </h4>
+        <button><a href="">BUY NOW </a></button>
+
+    </div>
+
+ <div class="outfit">
+        <img src="./5.png">
+        <h4>Full Sleeve Color Block Men Sweatshirt<br>
+            ₹2,015</h4>
+        <button><a href="https://www.flipkart.com/souled-store-full-sleeve-color-block-men-sweatshirt/p/itm453a4ef0c71db?pid=SWSGJR6CKA7JDMXX&lid=LSTSWSGJR6CKA7JDMXXNZU8WB&marketplace=FLIPKART&q=winter+hoodies&store=clo%2Fqvw%2F64a&srno=s_1_18&otracker=search&otracker1=search&fm=Search&iid=564da9ae-1355-4e2b-937d-7ad85ae0d0e7.SWSGJR6CKA7JDMXX.SEARCH&ppt=sp&ppn=sp&ssid=enxehviawg0000001669452871824&qH=8405165702ee4434">BUY NOW </a></button>
+
+    </div>
+
+
+    <div class="outfit">
+        <img src="./6.png">
+        <h4>Full Sleeve Graphic Print Men Sweatshirt<br>
+            ₹5,249</h4>
+        <button><a href="https://www.flipkart.com/puma-full-sleeve-graphic-print-men-sweatshirt/p/itm41c5a04c44152?pid=SWSGHXGSHZEZVVFM&lid=LSTSWSGHXGSHZEZVVFMGYP8LN&marketplace=FLIPKART&q=puma+sweatshirts&store=clo%2Fqvw%2F64a%2Fvui&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_ps&fm=search-autosuggest&iid=en_TMgtkUievmDC4SzAMbcX2q4HE%2FeADQuJydrXE6AFiU9S%2Bq8lWg51lec5ZVp%2BcNvgMCNSut%2F28e4KqtdCAkbnag%3D%3D&ppt=sp&ppn=sp&ssid=z0a5pv56z40000001669453301727&qH=9ae13c6d2517bb37">BUY NOW </a></button>
+
+    </div>
+
+
+
+    <div class="outfit">
+        <img src="./7.png">
+        <h4>Full Sleeve Solid Men Sweatshirt<br>
+            ₹1,574</h4>
+        <button><a href="https://www.flipkart.com/puma-full-sleeve-solid-men-sweatshirt/p/itm64f11387c0457?pid=SWSGGZY6DJKVMHQZ&lid=LSTSWSGGZY6DJKVMHQZBVS3HE&marketplace=FLIPKART&q=puma+sweatshirts&store=clo%2Fqvw%2F64a%2Fvui&srno=s_1_15&otracker=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_ps&fm=search-autosuggest&iid=7fd22660-cd0c-4082-a4a6-1404997bc9ce.SWSGGZY6DJKVMHQZ.SEARCH&ppt=sp&ppn=sp&qH=9ae13c6d2517bb37">BUY NOW </a></button>
+
+    </div>
+
+
+    <div class="outfit">
+        <img src="./8.png">
+        <h4>Embroidered Semi Stitched Lehenga Choli<br>
+            ₹18,997</h4>
+        <button><a href="https://www.flipkart.com/shivay-export-embroidered-semi-stitched-lehenga-choli/p/itm21ca4e61d0320?pid=LCHGH6NWERMNGTTP&lid=LSTLCHGH6NWERMNGTTPOXBZHI&marketplace=FLIPKART&q=lehenga&store=clo%2Fhlg&srno=s_1_1&otracker=AS_Query_PredictiveAutoSuggest_3_0_na_na_na&otracker1=AS_Query_PredictiveAutoSuggest_3_0_na_na_na&fm=search-autosuggest&iid=3e42f15a-6543-49cc-b17c-520ddf40fd1e.LCHGH6NWERMNGTTP.SEARCH&ppt=sp&ppn=sp&ssid=t3dor4mc1c0000001669455606951&qH=bb46bf6917d1b56c">BUY NOW </a></button>
+
+    </div>
+
+
+
+    <div class="outfit">
+        <img src="./9.png">
+        <h4>Women Bodycon Purple Dress<br>
+            ₹5,999</h4>
+        <button><a href="https://www.flipkart.com/vero-moda-women-bodycon-purple-dress/p/itmc077849601ced?pid=DREGJXWASGBNYER4&lid=LSTDREGJXWASGBNYER4IMNBLH&marketplace=FLIPKART&q=women+dress&store=clo%2Fodx%2Fmaj%2Fjhy&srno=s_1_5&otracker=search&otracker1=search&fm=Search&iid=f32cadd5-1ed4-4013-9870-a534ea1d128a.DREGJXWASGBNYER4.SEARCH&ppt=sp&ppn=sp&ssid=qh01hpx0qo0000001669456129872&qH=42247422fe19fd75">BUY NOW </a></button>
+
+    </div>
+
+
+
+
+
+    <div class="outfit">
+        <img src="./10.png">
+        <h4>Slim Men Blue Jeans<br>
+            ₹7,999</h4>
+        <button><a href="https://www.flipkart.com/tommy-hilfiger-slim-men-blue-jeans/p/itm8c97f3a0866f4?pid=JEAGG43GAHEJPCRZ&lid=LSTJEAGG43GAHEJPCRZAOB3ZK&marketplace=FLIPKART&q=jeans&store=clo%2Fvua%2Fk58&srno=s_1_18&otracker=search&otracker1=search&fm=Search&iid=4336c9d6-ef08-4451-9035-eb933e23e27e.JEAGG43GAHEJPCRZ.SEARCH&ppt=sp&ppn=sp&qH=a0f2589b1ced4dec">BUY NOW </a></button>
+
+    </div>
+
+
+
+    <div class="outfit">
+        <img src="./11.png">
+        <h4>Striped Men Polo Neck Navy Blue T-Shirt<br>
+            ₹1,169</h4>
+        <button><a href="https://www.flipkart.com/adidas-striped-men-polo-neck-navy-blue-t-shirt/p/itmb4d99b0b2131f?pid=TSHGBQ5HZVVH9FGQ&lid=LSTTSHGBQ5HZVVH9FGQJ1YZJ7&marketplace=FLIPKART&q=addidas+t+shirt&store=clo%2Fash%2Fank%2Fedy&srno=s_1_13&otracker=search&otracker1=search&fm=Search&iid=3fa354d3-93c4-43ba-ada5-b4d931c423f3.TSHGBQ5HZVVH9FGQ.SEARCH&ppt=sp&ppn=sp&ssid=grx1x3oag00000001669456839940&qH=21ac4a23d341ac6c">BUY NOW </a></button>
+
+    </div>
+
+
+
+    <div class="outfit">
+        <img src="./12.png">
+        <h4>Embellished Georgette Stitched Flared/A-line Gown<br>
+    
+            ₹12,748</h4>
+        <button><a href="https://www.flipkart.com/soch-flared-a-line-gown/p/itm779d7e6d6dee7?pid=GWNGG4BYUCP3ZM6F&lid=LSTGWNGG4BYUCP3ZM6FP9RRKV&marketplace=FLIPKART&store=clo%2Fodx%2Fod7%2F0xx&srno=b_1_2&otracker=browse&fm=Search&iid=99128338-34a1-4453-9b15-401e6d200575.GWNGG4BYUCP3ZM6F.SEARCH&ppt=browse&ppn=browse&ssid=0xeef9247k0000001669458704663">BUY NOW </a></button>
+
+    </div>
+
+
+
+
+    <div class="outfit">
+        <img src="./13.png">
+        <h4>Embroidered Daily Wear Georgette Saree <br>
+            ₹30,000</h4>
+        <button><a href="https://www.flipkart.com/hopoyo-fashion-embroidered-daily-wear-georgette-saree/p/itmcb3460d4ff235?pid=SARGGJTHBFFAXKTJ&lid=LSTSARGGJTHBFFAXKTJCHEPLZ&marketplace=FLIPKART&store=clo%2F8on%2Fzpd%2F9og&srno=b_1_1&otracker=browse&fm=Search&iid=f8ae56f3-3316-461b-9067-36cfb23a9a34.SARGGJTHBFFAXKTJ.SEARCH&ppt=browse&ppn=browse">BUY NOW </a></button>
+
+    </div>
+
+
+
+
+    <div class="outfit">
+        <img src="./14.png">
+        <h4>Slim Fit Men Khaki Cotton Blend Trousers<br>
+            ₹6,999</h4>
+        <button><a href="https://www.flipkart.com/tommy-hilfiger-slim-fit-men-khaki-trousers/p/itmc8c3124c77fbb?pid=TROFM7DGBK2M6UPJ&lid=LSTTROFM7DGBK2M6UPJT82LV7&marketplace=FLIPKART&store=clo%2Fvua%2Fmle%2Flhk&srno=b_1_9&otracker=nmenu_sub_Men_0_Casual%20Trousers&fm=Search&iid=2497947a-9dd6-4ce8-b05d-968eb4ddaa21.TROFM7DGBK2M6UPJ.SEARCH&ppt=browse&ppn=browse">BUY NOW </a></button>
+
+    </div>
+
+
+
+
+    <div class="outfit">
+        <img src="./15.png">
+        <h4>Suit Solid Men Suit<br>
+            ₹29,995</h4>
+        <button><a href="https://www.flipkart.com/blackberrys-suit-solid-men/p/itmbac4fa3b37c80?pid=SUIGDH32NKUXAYGF&lid=LSTSUIGDH32NKUXAYGFI6OL4X&marketplace=FLIPKART&store=clo%2Fupk&srno=b_1_1&otracker=browse&fm=Search&iid=cf343b77-6273-481a-baf0-5bb0da7e044b.SUIGDH32NKUXAYGF.SEARCH&ppt=browse&ppn=browse&ssid=2zol10ajwg0000001669459067932">BUY NOW </a></button>
+
+    </div>
+
+
+
+
+    <div class="outfit">
+        <img src="./16.png">
+        <h4>Solid Round Neck Casual Men Black Sweater<br>
+            ₹7,199</h4>
+        <button><a href="https://www.flipkart.com/calvin-klein-jeans-solid-round-neck-casual-men-black-sweater/p/itm3d657429fb54b?pid=SWTG4JAYNZHNYZCB&lid=LSTSWTG4JAYNZHNYZCBXHTLKI&marketplace=FLIPKART&q=sweater+for+men&store=clo%2Fqvw%2Fvkb%2Fieq&srno=s_1_11&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&fm=search-autosuggest&iid=0957f89c-3b44-4abd-a9ba-1d3c52058b02.SWTG4JAYNZHNYZCB.SEARCH&ppt=sp&ppn=sp&qH=0168c3fe63c4a523">BUY NOW </a></button>
+
+    </div>
+
+
+
+    <div class="outfit">
+        <img src="./17.png">
+        <h4>Full Sleeve Solid Men Bomber Jacket<br>
+            ₹1,319</h4>
+        <button><a href="https://www.flipkart.com/roadster-full-sleeve-solid-men-jacket/p/itmf48676f1e23de?pid=JCKFYURPCAK5CRSU&lid=LSTJCKFYURPCAK5CRSUPZEXYH&marketplace=FLIPKART&q=bomber+jacket&store=clo%2Fqvw%2Fz0g&srno=s_1_1&otracker=AS_Query_PredictiveAutoSuggest_9_0_na_na_na&otracker1=AS_Query_PredictiveAutoSuggest_9_0_na_na_na&fm=search-autosuggest&iid=99f7f5e6-23ce-453a-867f-1292d9506564.JCKFYURPCAK5CRSU.SEARCH&ppt=sp&ppn=sp&ssid=7c8c3ay9y80000001669459773483&qH=775bed64205475ed">BUY NOW </a></button>
+
+    </div>
+
+
+    <div class="outfit">
+        <img src="./18.png">
+        <h4>Men Printed Viscose Rayon Straight Kurta<br>
+            ₹3,995</h4>
+        <button><a href="https://www.flipkart.com/kalpraag-men-printed-straight-kurta/p/itm1bdc448bfa8f0?pid=KTAGJHMF9DSZHA9N&lid=LSTKTAGJHMF9DSZHA9N723XY8&marketplace=FLIPKART&q=kurta&store=clo%2Fcfv%2Fcib&srno=s_1_10&otracker=search&otracker1=search&fm=Search&iid=589059d2-3dd2-45b7-8d8c-09919e7aa832.KTAGJHMF9DSZHA9N.SEARCH&ppt=sp&ppn=sp&ssid=4795psab9s0000001669462399733&qH=294d4e7d60d14587">BUY NOW </a></button>
+
+    </div>
+
+
+    <div class="outfit">
+     <img src="./19.png">
+    <h4>Typography Men Round Neck Light Green T-Shirt<br>
+         ₹1,259</h4>
+     <button><a href="https://www.flipkart.com/adidas-typography-men-round-neck-light-green-t-shirt/p/itm054c63b836928?pid=TSHGBQ5HYUQUAQQB&lid=LSTTSHGBQ5HYUQUAQQB4UFFQW&marketplace=FLIPKART&q=branded+t+shirts+for+men&store=clo%2Fash%2Fank%2Fedy&srno=s_8_282&otracker=AS_QueryStore_OrganicAutoSuggest_1_15_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_15_na_na_ps&fm=search-autosuggest&iid=9a166579-92f6-432c-8c29-438c3f6b632a.TSHGBQ5HYUQUAQQB.SEARCH&ppt=sp&ppn=sp&ssid=mzxyf59j5s0000001669466564718&qH=7d1e17c27b6648c3">BUY NOW</a></button>
+</div>
+
+<div class="outfit">
+    <img src="./20.png">
+    <h4>Typography Men Round Neck Blue T-Shirt<br>
+        ₹909</h4>
+    <button><a href="https://www.flipkart.com/adidas-typography-men-round-neck-blue-t-shirt/p/itm2396ee59c14c1?pid=TSHGEU7FZDNEVTSR&lid=LSTTSHGEU7FZDNEVTSRJTN3YT&marketplace=FLIPKART&q=branded+t+shirts+for+men&store=clo%2Fash%2Fank%2Fedy&srno=s_8_298&otracker=AS_QueryStore_OrganicAutoSuggest_1_15_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_15_na_na_ps&fm=search-autosuggest&iid=9a166579-92f6-432c-8c29-438c3f6b632a.TSHGEU7FZDNEVTSR.SEARCH&ppt=sp&ppn=sp&qH=7d1e17c27b6648c3">BUY NOW</a></button>
+</div>
+             
+<div class="outfit">
+    <img src="./21.png">
+    <h4>Regular Men Blue Jeans<br>
+        ₹2,029</h4>
+    <button><a href="https://www.flipkart.com/wrogn-regular-men-blue-jeans/p/itmfdwfgkgbg7wp7?pid=JEAFDVZVBSU2ZBXD&lid=LSTJEAFDVZVBSU2ZBXDWPTI1E&marketplace=FLIPKART&q=damage+jeans+for+men&store=clo%2Fvua%2Fk58%2Fi51&srno=s_1_8&otracker=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_6_na_na_na&fm=search-autosuggest&iid=3e96fac2-8a51-4494-b318-e651bfb4e52d.JEAFDVZVBSU2ZBXD.SEARCH&ppt=sp&ppn=sp&ssid=503pyxw6280000001669467893989&qH=23b77f179b6f8293">BUY NOW</a></button>
+</div>
+
+<div class="outfit">
+    <img src="./22.png">
+    <h4>Solid Men Track Suit<br>
+        ₹2,399</h4>
+    <button><a href="https://www.flipkart.com/puma-solid-men-track-suit/p/itma2b351a860e39?pid=TKSGGC38EWAHQNWZ&lid=LSTTKSGGC38EWAHQNWZMCVETT&marketplace=FLIPKART&store=clo%2Fnyk%2Fzp4&srno=b_1_12&otracker=browse&fm=Search&iid=en_KC6W55bcsUbizudDxNWLTlOx%2BlzD8KlRQaYiz7%2Fb2IrKg67EfRLpuuYQW4mc2fm6iw6XGmtUJs72721YVPOZ1A%3D%3D&ppt=browse&ppn=browse">BUY NOW</a></button>
+</div>
+
+
+<div class="outfit">
+    <img src="./23.png">
+    <h4>Embellished Stitched Lehenga Choli  <br>
+        ₹14,998</h4>
+    <button><a href="https://www.flipkart.com/soch-embellished-stitched-lehenga-choli/p/itm28c8efbdcf68b?pid=LCHGJVMYQZHK2XYE&lid=LSTLCHGJVMYQZHK2XYEYO45RT&marketplace=FLIPKART&store=clo%2Fhlg%2Fwrp&srno=b_1_5&otracker=browse&fm=Search&iid=92cca8f9-46eb-4719-857d-a331b3ea1f74.LCHGJVMYQZHK2XYE.SEARCH&ppt=browse&ppn=browse&ssid=3p7opz3mps0000001669470797474">BUY NOW</a></button>
+</div>
+
+<div class="outfit">
+    <img src="./24.png">
+    <h4>Embroidered Kurta, Palazzo & Dupatta Set<br>
+        ₹19,950
+        </h4>
+    <button><a href="https://www.flipkart.com/biba-embroidered-kurta-palazzo-dupatta-set/p/itm2e553df5f16f9?pid=SWDGJQ3X4JGTZ472&lid=LSTSWDGJQ3X4JGTZ472G2M2JF&marketplace=FLIPKART&store=clo%2Fcfv%2Fitg%2Ftys&srno=b_1_1&otracker=browse&fm=Search&iid=cdc1f525-b303-4dc8-b1db-73872f8671c7.SWDGJQ3X4JGTZ472.SEARCH&ppt=browse&ppn=browse&ssid=p9ppnfqo4w0000001669472085483">BUY NOW</a></button>
+</div>
+
+<div class="outfit">
+    <img src="./25.png">
+    <h4>Graphic Print Men Round Neck Green T-Shirt<br>
+        ₹2,999</h4>
+    <button><a href="https://www.flipkart.com/puma-graphic-print-men-round-neck-green-t-shirt/p/itmf5ccb7d4d8ce7?pid=TSHGHWHHKPGEKTMH&lid=LSTTSHGHWHHKPGEKTMHCGCVPT&marketplace=FLIPKART&store=clo%2Fash%2Fank%2Fedy&srno=b_2_62&otracker=browse&fm=Search&iid=539f6cbc-20c3-44d0-8fea-8fba9056dd31.TSHGHWHHKPGEKTMH.SEARCH&ppt=browse&ppn=browse&ssid=mxtphvwzq80000001669472450949">BUY NOW</a></button>
+</div>
+
+<div class="outfit">
+    <img src="./26.png">
+    <h4>Women Fit and Flare Pink Dress<br>
+        ₹1,679</h4>
+    <button><a href="https://www.flipkart.com/fashor-women-fit-flare-pink-dress/p/itm46d2c9ec33670?pid=DREGK3BBBBEXTMUF&lid=LSTDREGK3BBBBEXTMUFXCXY7J&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=hp_rich_navigation_4_1.navigationCard.RICH_NAVIGATION_Fashion~Women%2BWestern_K4M2S29QJWT9&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_4_L1_view-all&fm=organic&iid=2dd6efb7-4372-42a4-9ce7-b1eb8276ec9b.DREGK3BBBBEXTMUF.SEARCH&ppt=browse&ppn=browse&ssid=x8gvjfstz40000001669481615482">BUY NOW</a></button>
+</div>
+
+<div class="outfit">
+    <img src="./27.png">
+    <h4>Men Slim Fit Solid Spread Collar Casual Shirt<br>
+        ₹4,999</h4>
+    <button><a href="https://www.flipkart.com/calvin-klein-jeans-men-solid-casual-grey-shirt/p/itmb3ded9e8e0809?pid=SHTGFGVFWHVMSQES&lid=LSTSHTGFGVFWHVMSQESOHMNUF&marketplace=FLIPKART&store=clo%2Fash&srno=b_1_3&otracker=browse&fm=organic&iid=15fbff47-2553-472f-9b65-2ee585cb93c6.SHTGFGVFWHVMSQES.SEARCH&ppt=browse&ppn=browse">BUY NOW</a></button>
+</div>
+
+<div class="outfit">
+    <img src="./28.png">
+    <h4>Men Regular Fit Self Design Cut Away Collar Formal Shirt<br>
+        ₹4,299</h4>
+    <button><a href="https://www.flipkart.com/arrow-men-self-design-formal-blue-shirt/p/itm3142b9a5b15e3?pid=SHTGJNX73BXKGFBH&lid=LSTSHTGJNX73BXKGFBHN0NBXM&marketplace=FLIPKART&store=clo%2Fash&srno=b_1_5&otracker=browse&fm=organic&iid=15fbff47-2553-472f-9b65-2ee585cb93c6.SHTGJNX73BXKGFBH.SEARCH&ppt=browse&ppn=browse">BUY NOW</a></button>
+</div>
+
+
+
+<div class="outfit">
+    <img src="./29.png">
+    <h4>Embellished Stitched Lehenga Choli  <br>
+        ₹12,998</h4>
+    <button><a href="https://www.flipkart.com/soch-embellished-stitched-lehenga-choli/p/itm588453d18bb94?pid=LCHGJVMY2CQHAZGD&lid=LSTLCHGJVMY2CQHAZGDRT0OPN&marketplace=FLIPKART&store=clo%2Fhlg%2Fwrp&srno=b_1_7&otracker=browse&fm=organic&iid=d5570054-2d36-4193-90be-b6db7bd4080a.LCHGJVMY2CQHAZGD.SEARCH&ppt=browse&ppn=browse&ssid=3txf3xibds0000001669482731122">BUY NOW</a></button>
+</div>
+
+<div class="outfit">
+    <img src="./30.png">
+    <h4>Organza Embroidered White Women Dupatta<br>
+        ₹4,248</h4>
+    <button><a href="https://www.flipkart.com/soch-organza-embroidered-women-dupatta/p/itm34d96b67b4936?pid=DUPGG44Y7YDP9HZ8&lid=LSTDUPGG44Y7YDP9HZ8EC3GEJ&marketplace=FLIPKART&store=clo%2Fqd8%2Ft6b%2Fpjy&srno=b_1_6&otracker=browse&fm=organic&iid=4de6a0f6-2d8a-4fe3-94c1-863c49bf7b0e.DUPGG44Y7YDP9HZ8.SEARCH&ppt=browse&ppn=browse&ssid=dh4hw1auww0000001669482869832">BUY NOW</a></button>
+</div>
+
+<div class="outfit">
+    <img src="./33.png">
+    <h4>Full Sleeve Embroidered Women Denim Jacket<br>
+        ₹3,499</h4>
+    <button><a href="https://www.flipkart.com/hi-fashion-full-sleeve-embroidered-women-denim-jacket/p/itma397473097aa0?pid=JCKGKF956VZJDNCG&lid=LSTJCKGKF956VZJDNCGGJWBNQ&marketplace=FLIPKART&q=fashion+jacket&store=clo%2Fqvw%2Fz0g&srno=s_6_237&otracker=AS_Query_OrganicAutoSuggest_3_7_na_na_na&otracker1=AS_Query_OrganicAutoSuggest_3_7_na_na_na&fm=search-autosuggest&iid=0a70efae-0860-4ec6-915b-b6cb886d0b1e.JCKGKF956VZJDNCG.SEARCH&ppt=sp&ppn=sp&ssid=scn2xq9h400000001669484606894&qH=07e68903fb7db76e">BUY NOW</a></button>
+</div>
+
+
+<div class="outfit">
+    <img src="./34.png">
+    <h4>Full Sleeve Solid Men Padded Jacket<br>
+        ₹1,239</h4>
+    <button><a href="https://www.flipkart.com/roadster-full-sleeve-solid-men-jacket/p/itme3388746315ff?pid=JCKFWWZJBCN2NYHP&lid=LSTJCKFWWZJBCN2NYHP5QXMIX&marketplace=FLIPKART&store=clo%2Fqvw%2Fz0g%2Fjbm&srno=b_1_31&otracker=browse&fm=search-autosuggest&iid=0e3394d1-faf7-4664-86cc-c9eff0f72c23.JCKFWWZJBCN2NYHP.SEARCH&ppt=browse&ppn=browse&ssid=zylijzil7k0000001669484755721">BUY NOW</a></button>
+</div>
+
+
+
+<div class="outfit">
+    <img src="./31.png">
+    <h4>Women Gown Red Dress<br>
+        ₹4,999</h4>
+    <button><a href="https://www.flipkart.com/w-women-gown-red-dress/p/itm36d21b5d84a29?pid=DREGJPYYQHQADPTR&lid=LSTDREGJPYYQHQADPTRISE5NH&marketplace=FLIPKART&q=dress&store=clo%2Fodx%2Fmaj&srno=s_1_9&otracker=search&otracker1=search&fm=Search&iid=6d78170d-a882-40a0-a29e-8c13b169c1d7.DREGJPYYQHQADPTR.SEARCH&ppt=sp&ppn=sp&ssid=r8r3arq6tc0000001669483251811&qH=ccaaac957ec37bde">BUY NOW</a></button>
+</div>
+
+<div class="outfit">
+    <img src="./35.png">
+    <h4>Men Slim Fit Printed Cut Away Collar Casual Shirt<br>
+        ₹413</h4>
+    <button><a href="https://www.flipkart.com/highlander-men-printed-casual-multicolor-shirt/p/itmf5b83c48f82de?pid=SHTGC3G3QH8GGH8U&marketplace=FLIPKART">BUY NOW</a></button>
+</div>
+
+
+<div class="outfit">
+    <img src="./36.png">
+    <h4>Men Slim Fit Self Design Spread Collar Formal Shirt<br>
+        ₹879</h4>
+    <button><a href="https://www.flipkart.com/raymond-men-self-design-formal-purple-shirt/p/itm3c6818aac97be?pid=SHTGH2C5TYYTM9FF&marketplace=FLIPKART">BUY NOW</a></button>
+</div>
+
+
+<div class="outfit">
+    <img src="./32.png">
+    <h4>Women Pleated Green Dress<br>
+        ₹299</h4>
+    <button><a href="https://www.flipkart.com/aask-women-pleated-green-dress/p/itm7369ab5b93201?pid=DREG7XT9BFUTZQHY&lid=LSTDREG7XT9BFUTZQHYU0OTLX&marketplace=FLIPKART&q=dresses+western+wear+party&store=clo%2Fodx%2Fmaj%2Fjhy&srno=s_1_3&otracker=AS_Query_OrganicAutoSuggest_5_5_na_na_na&otracker1=AS_Query_OrganicAutoSuggest_5_5_na_na_na&fm=search-autosuggest&iid=7e8a66b2-5f45-43ad-a309-16d4f78f2657.DREG7XT9BFUTZQHY.SEARCH&ppt=sp&ppn=sp&qH=732f890358a8474f">BUY NOW</a></button>
+</div>
+
+
+
+
+
+
+<div class="outfit">
+<img src="./37.png">
+<h4>Solid Men Black Track Pants<br>
+    ₹7,739</h4>
+<button><a href="https://rukminim1.flixcart.com/image/832/832/xif0q/night-dress-nighty/t/o/s/xl-2705av-red-sleep-in-style-sweet-dreams-original-imaggp9fftergdxm.jpeg?q=70">BUY NOW</a></button>
+</div>
+
+
+
+<div class="outfit">
+    <img src="./38.png">
+    <h4>Men Blue Jeans<br>
+        ₹6,000</h4>
+    <button><a href="https://www.flipkart.com/levi-s-men-blue-jeans/p/itm67d8999e50efe?pid=JEAGAHPQRQFFGZ7Y&lid=LSTJEAGAHPQRQFFGZ7YVAZYFI&marketplace=FLIPKART&store=clo%2Fvua&srno=b_1_3&otracker=browse&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L1_view-all&fm=organic&iid=5c62d61f-aa4b-403b-a8f0-b94b9c29ab0a.JEAGAHPQRQFFGZ7Y.SEARCH&ppt=browse&ppn=browse">BUY NOW</a></button>
+</div>
+
+
+
+    <div class="outfit">
+        <img src="./39.png">
+        <h4>Full Sleeve Solid Women Sweatshirt<br>
+            ₹731</h4>
+        <button><a href="https://www.flipkart.com/theshoppingicon-full-sleeve-solid-women-sweatshirt/p/itme8d1965f9b05f?pid=SWSG74QXRDMR9NZT&lid=LSTSWSG74QXRDMR9NZTU34D5K&marketplace=FLIPKART&q=unisex+hoodies&store=clo%2Fqvw%2F64a%2Flzz&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_2_13_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_2_13_na_na_ps&fm=search-autosuggest&iid=65e99696-51be-4543-8719-2f28a27f9640.SWSG74QXRDMR9NZT.SEARCH&ppt=sp&ppn=sp&ssid=utec3j3j5s0000001669527720054&qH=d5c0140e62a5578b">BUY NOW</a></button>
+        </div>
+    
+
+
+        <div class="outfit">
+            <img src="./40.png">
+            <h4>Women Nighty with Robe  (Red)<br>
+                ₹3,299</h4>
+            <button><a href="https://www.flipkart.com/sleep-style-sweet-dreams-women-nighty-robe/p/itm7cc89984cc29f?pid=NDNGGP9DBXBKFZG6&lid=LSTNDNGGP9DBXBKFZG6K8ZWUX&marketplace=FLIPKART&q=nighty&store=clo%2F1hc%2Fkc4%2Fnmu&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=e615eeee-f954-4537-ba8a-bdf12fbd37e5.NDNGGP9DBXBKFZG6.SEARCH&ppt=sp&ppn=sp&ssid=809390je5s0000001669527917568&qH=7054c1eeda2fe037">BUY NOW</a></button></div>
+
+
+            <div class="outfit">
+                <img src="./41.png">
+                <h4>Printed Men Black Track Pants<br>
+                    ₹5,399</h4>
+                <button><a href="https://www.flipkart.com/adidas-originals-printed-men-black-track-pants/p/itm7cfebf6704854?pid=TKPGEU8AAR774GAH&lid=LSTTKPGEU8AAR774GAHLNZJLJ&marketplace=FLIPKART&store=clo%2Fvua%2Fjlk%2F6ql&srno=b_1_4&otracker=browse&fm=Search&iid=3d5ad05b-139d-47c8-9ae1-5b464cf866b3.TKPGEU8AAR774GAH.SEARCH&ppt=browse&ppn=browse&ssid=nyzsm76q8g0000001669553617433">BUY NOW</a></button>
+                </div>
+
+
+    <div class="outfit">
+<img src="./42.png">
+<h4>Ramraj Cotton Ramraj Cotton Mens Pure Silk Dhoti <br>
+    ₹16,175
+    </h4>
+<button><a href="https://www.flipkart.com/ramraj-cotton-mens-pure-silk-dhoti-towel-solid-men/p/itm8c01cb11a4664?pid=DHTGD582RE4YRW4N&lid=LSTDHTGD582RE4YRW4NMJCLMX&marketplace=FLIPKART&store=clo%2Fcfv%2Fnnk&srno=b_1_1&otracker=browse&fm=Search&iid=e6032369-a71a-4cde-8dc6-8b40f316db9b.DHTGD582RE4YRW4N.SEARCH&ppt=browse&ppn=browse">BUY NOW</a></button>
+</div>
+
+
+<div class="outfit">
+    <img src="./43.png">
+    <h4>Solid Men Three Fourths<br>
+        ₹2,879</h4>
+    <button><a href="https://www.flipkart.com/marks-spencer-solid-men-three-fourths/p/itmffuf5wjhxyfqm?pid=SRTFCYDGZUK2JKXF&lid=LSTSRTFCYDGZUK2JKXFP9YQDB&marketplace=FLIPKART&store=clo%2Fvua%2Feum%2F4qq&srno=b_1_2&otracker=browse&iid=236271b3-e6d8-40d1-9fc0-ce279238f739.SRTFCYDGZUK2JKXF.SEARCH&ssid=5n6796vq0g0000001669625065059">BUY NOW</a></button>
+    </div>
+
+
+
+    <div class="outfit">
+        <img src="./44.png">
+        <h4>Solid Men Round Neck Black T-Shirt<br>
+            ₹249</h4>
+        <button><a href="https://www.flipkart.com/triptee-solid-men-round-neck-black-t-shirt/p/itm07da9e7d1c744?pid=TSHGBF9G8FDCQYA3&lid=LSTTSHGBF9G8FDCQYA3XSMJ77&marketplace=FLIPKART&store=clo%2Fash%2Fank%2Fedy&srno=b_1_37&otracker=browse&fm=organic&iid=5f23e0ed-032c-4e2d-9da6-ad01757398f1.TSHGBF9G8FDCQYA3.SEARCH&ppt=browse&ppn=browse">BUY NOW</a></button>
+        </div>
+
+        <div class="outfit">
+            <img src="./45.png">
+            <h4>Full Sleeve Solid Men Casual Jacket<br>
+                ₹15,409</h4>
+            <button><a href="https://www.flipkart.com/puma-full-sleeve-solid-men-jacket/p/itm6d9eb061fef9d?pid=JCKFXY2DJEHJSBU2&lid=LSTJCKFXY2DJEHJSBU2SMUAV4&marketplace=FLIPKART&store=clo%2Fqvw%2Fz0g%2Fjbm&srno=b_1_2&otracker=browse&fm=organic&iid=d9afd204-9695-4f1b-a7ea-c5799d756681.JCKFXY2DJEHJSBU2.SEARCH&ppt=browse&ppn=browse&ssid=iued8ed0lc0000001669625381236">BUY NOW</a></button>
+            </div>
+
+
+            <div class="outfit">
+                <img src="./46.png">
+                <h4>Full Sleeve Applique Men Casual Jacket<br>
+                    ₹13,999</h4>
+                <button><a href="https://www.flipkart.com/calvin-klein-jeans-full-sleeve-applique-men-jacket/p/itmcbd526279713b?pid=JCKG4G6VWKF2PZKX&lid=LSTJCKG4G6VWKF2PZKXS4BEFG&marketplace=FLIPKART&store=clo%2Fqvw%2Fz0g%2Fjbm&srno=b_1_4&otracker=browse&fm=organic&iid=d9afd204-9695-4f1b-a7ea-c5799d756681.JCKG4G6VWKF2PZKX.SEARCH&ppt=browse&ppn=browse">BUY NOW</a></button>
+                </div>
+
+
+                <div class="outfit">
+                    <img src="./47.png">
+                    <h4>LIGHT WEIGHT SIDE LOGO JACKET Full Sleeve Solid Men Casual Jacket<br>
+                        ₹13,999</h4>
+                    <button><a href="https://www.flipkart.com/calvin-klein-full-sleeve-solid-men-jacket/p/itm1bd1fbcfe0239?pid=JCKFUTD9VYM5UFYF&lid=LSTJCKFUTD9VYM5UFYFVU6RXT&marketplace=FLIPKART&store=clo%2Fqvw%2Fz0g%2Fjbm&srno=b_1_6&otracker=browse&fm=organic&iid=d9afd204-9695-4f1b-a7ea-c5799d756681.JCKFUTD9VYM5UFYF.SEARCH&ppt=browse&ppn=browse">BUY NOW</a></button>
+                    </div>
+
+
+                    <div class="outfit">
+                        <img src="./48.png">
+                        <h4>Full Sleeve Solid Men Leather Jacket<br>
+                            ₹10,836</h4>
+                        <button><a href="https://www.flipkart.com/jack-jones-full-sleeve-solid-men-jacket/p/itm2be00b3fef430?pid=JCKGGGKFNSAGXKYP&lid=LSTJCKGGGKFNSAGXKYPJ2L7R7&marketplace=FLIPKART&store=clo%2Fqvw%2Fz0g%2Fjbm&srno=b_1_21&otracker=browse&fm=organic&iid=d9afd204-9695-4f1b-a7ea-c5799d756681.JCKGGGKFNSAGXKYP.SEARCH&ppt=browse&ppn=browse">BUY NOW</a></button>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</div>
+
+<br>
+
+<hr>
+<hr>
+<br>
+<footer>
+    <div class="footer-Content">
+
+        <h3 style="color:red">Follow Us</h3>
+        
+        <ul class="social">
+            <li><a href="https://www.facebook.com/"><img src="./2.png"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="./insta.png"></a></li>
+            <li><a href="https://www.youtube.com/"><img src="1.png"></a></li>
+            <li><a href="https://twitter.com/"><img src="./Twitter.png"></a></li>
+        </ul>
+        
+
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2022 ||  E-CART Pvt.Ltd || <span> 
+             <a href="../site/Portfolio.html">
+             <i class="fa-solid fa-user"> </i> MANISH JIT</i></a> </span></p>
+
+
+    </div>
+</footer>
+
+
+
+</body>
+</html>
